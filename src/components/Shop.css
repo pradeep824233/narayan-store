@@ -1,0 +1,32 @@
+.shop-page-container {
+  padding: 20px;
+}
+
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-tab {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.category-tab.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+
+.category-content {
+  padding: 10px;
+  border-top: 1px solid #eee;
+}

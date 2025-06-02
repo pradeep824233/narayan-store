@@ -1,0 +1,114 @@
+.contact-container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-container h2 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #e8f5e9; /* Light green background */
+  border-radius: 8px;
+  text-align: left;
+}
+
+.contact-info h3 {
+  color: #2e7d32; /* Darker green */
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #c8e6c9;
+  padding-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1em;
+}
+
+.contact-form-section {
+  padding: 20px;
+  background-color: #f0f4c3; /* Light yellow background */
+  border-radius: 8px;
+  text-align: left;
+}
+
+.contact-form-section h3 {
+  color: #fbc02d; /* Yellow */
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff9c4;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.contact-form textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block; /* Make button full width */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
